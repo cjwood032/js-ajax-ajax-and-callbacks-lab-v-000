@@ -20,10 +20,9 @@
   </head>
   <body>
     <main id="main">
-      <form onsubmit="searchRepositories(); return false;">
-          <input type="text" id="searchTerms">
-          <input type="submit" value="Search Repos">
-        </form>
+      Enter search term:
+    <input type="text" id="searchTerms"><br>
+    <a href="#" onclick="searchRepositories()">click to search</a>
       <div id="errors"></div>
     </main>
     <div class="flexbox-container">
